@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh; /* you take 70% of the page */
+    /* background-color: brown; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin; /* you take 60% of the container*/
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(210, 146, 67); */
+    gap:1.5vmin ;
+
+}
+
+#box{
+    height: 18vmin; /* and he take 18 of game ex (i will give 18 % all indivisual box)*/
+    width: 18vh;
+    border-radius: 1rem;/*this will little bit curv fro the edges */
+    border: none;/* remove the border*/
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 8vmin;/* heiagh have 18 % height & we give to him 8% of height*/
+    color: #b0413e;
+
+}
+#ResetBtn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #191913;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+
+}
+
+#new-Btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #191913;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+
+}
+
+.messg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
+}
